@@ -1,0 +1,22 @@
+{
+    "name": "charm/interop",
+    "description": "A set of traits for classes that expect to have various common services injeted.",
+    "type": "library",
+    "require": {
+        "psr/http-factory": ">=0",
+        "psr/log": ">=0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Charm\\Interop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frode Børli",
+            "email": "frode@ennerd.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
